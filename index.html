@@ -3,42 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fernanda Valencia - CV</title>
+    <title>Fernanda Valencia - Portafolio</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1, h2 { color: #333; }
-        h2 { border-bottom: 1px solid #ccc; padding-bottom: 5px; }
-        .contacto { color: #555; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 25px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: none;
+            color: #34495e;
+            margin-top: 20px;
+        }
+        .contacto {
+            font-size: 0.9em;
+            color: #555;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        .proyecto, .experiencia {
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: #3498db;
+        }
     </style>
 </head>
 <body>
-    <h1>Fernanda Valencia</h1>
-    <p class="contacto">
-        San Joaquín, Santiago | +56 983245549 | fernandavalencia115@gmail.com | github.com/ferlmdl
-    </p>
 
-    <h2>Acerca de mí</h2>
-    <p>Estudiante de ingeniería en informática y telecomunicaciones...</p>
-    <p>Capaz de adaptarme rápidamente...</p>
+    <header>
+        <h1>Fernanda Valencia</h1>
+        <p class="contacto">
+            San Joaquín, Santiago | +56 983245549 | fernandavalencia115@gmail.com | github.com/ferlmdl
+        </p>
+    </header>
 
-    <h2>Experiencia Laboral</h2>
+    <main>
+        <section id="acerca-de-mi">
+            <h2>Acerca de mí</h2>
+            <p>Estudiante de ingeniería en informática y telecomunicaciones de la universidad Diego Portales, con fuertes habilidades en el desarrollo web, análisis de datos y diversos lenguajes de programación. [cite: 4]</p>
+            <p>Capaz de adaptarme rápidamente a distintos entornos de trabajo con experiencia en bases de datos, creación de páginas web y manejo de dashboards interactivos en PowerBI, con muy buenas habilidades para trabajar en equipo. [cite: 5]</p>
+            <p>Dispuesta a aprender y aportar dentro de mi equipo de trabajo. [cite: 6]</p>
+        </section>
 
-    <h3>Data Analyst | Aguas Andinas</h3>
-    <p><i>mar. 2025 – actualidad</i></p>
-    <ul>
-        <li>Análisis y desarrollo de dashboards interactivos con PowerBi y Excel.</li>
-    </ul>
+        <section id="experiencia">
+            <h2>Experiencia Laboral</h2>
+            
+            <div class="experiencia">
+                <h3>Data Analyst | Aguas Andinas S.A.</h3>
+                <p><i>mar. 2025 – actualidad [cite: 22]</i></p>
+                <ul>
+                    <li>Análisis y desarrollo de dashboards interactivos con PowerBi y Excel.</li>
+                </ul>
+            </div>
 
-    <h2>Proyectos</h2>
-    <h3>Sitio web de compra y venta</h3>
-    <p>Página para realizar compra y venta de productos en línea, conectada a MongoDB...</p>
+            <div class="experiencia">
+                <h3>Internship | Aguas Andinas S.A.</h3>
+                <p><i>dic. 2024 - feb. 2025 [cite: 21]</i></p>
+                <ul>
+                    <li>(Aquí puedes añadir la descripción de tu práctica)</li>
+                </ul>
+            </div>
 
-    <h2>Habilidades</h2>
-    <ul>
-        <li><b>Lenguajes:</b> Python, JavaScript, Java, C++, SQL</li>
-        <li><b>Frameworks:</b> Node, Express, Bootstrap, JWT...</li>
-        <li><b>Bases de Datos:</b> PostgreSQL, MongoDB, Supabase</li>
-    </ul>
+            <div class="experiencia">
+                <h3>Teacher Assistant | Universidad Diego Portales</h3>
+                <p><i>mar. 2025 - actualidad [cite: 24]</i></p>
+                <ul>
+                    <li>Asistencia a profesores en cursos como: Programación Avanzada, Bases de Datos Avanzadas, Cálculo III, Química y Bases de Datos EII.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            
+            <div class="proyecto">
+                <h3>Sitio web de compra y venta</h3>
+                <p>Página para realizar compra y venta de productos en línea, conectada a MongoDB y asegurada con JWT. [cite: 8] Alojada en una instancia ec2 de AWS. [cite: 9]</p>
+            </div>
+            
+            <div class="proyecto">
+                <h3>Sitio web de cuidado animal</h3>
+                <p>Página para ingresar información sobre tus mascotas, permite llevar registro de las medicinas, médicos a cargo, etc. Está conectada a PostgreSQL. [cite: 10]</p>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li><strong>Lenguajes:</strong> Python, JavaScript, Java, C++, SQL [cite: 12]</li>
+                <li><strong>Frameworks y tecnologías:</strong> Node, Express, Bootstrap, JWT, HBS, bycript [cite: 13]</li>
+                <li><strong>Bases de Datos:</strong> PostgreSQL, MongoDB, Supabase [cite: 14]</li>
+                <li><strong>Business Intelligence y Software:</strong> PowerBi, Excel (Avanzado), Office [cite: 15]</li>
+            </ul>
+        </section>
+
+        <section id="educacion">
+            <h2>Educación</h2>
+            <p><strong>Universidad Diego Portales, Santiago, Chile</strong> [2022-Act.] [cite: 17]</p>
+        </section>
+
+        <section id="idiomas">
+            <h2>Idiomas</h2>
+            <p>Inglés – Intermedio [cite: 19]</p>
+        </section>
+        
+    </main>
 
 </body>
 </html>

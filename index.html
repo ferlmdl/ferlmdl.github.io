@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fernanda Valencia - Portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -39,6 +40,7 @@
         .contacto a {
             color: inherit;
             text-decoration: none;
+            margin: 0 5px;
         }
         .contacto a:hover {
             color: #8B9A67;
@@ -59,6 +61,9 @@
         strong {
             color: #8B9A67;
         }
+        .fab {
+            margin-right: 4px;
+        }
     </style>
 </head>
 <body>
@@ -66,7 +71,9 @@
     <header>
         <h1>Fernanda Valencia</h1>
         <p class="contacto">
-            Santiago, Chile | <a href="github.com/ferlmdl">Github</a> | <a href="https://www.linkedin.com/in/fernanda-valencia-c/">Linkedin</a>
+            Santiago, Chile | 
+            <a href="https://github.com/ferlmdl" target="_blank"><i class="fab fa-github"></i> Github</a> | 
+            <a href="https://www.linkedin.com/in/fernanda-valencia-c/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a>
         </p>
     </header>
 
@@ -110,12 +117,17 @@
             <h2>Proyectos</h2>
             
             <div class="proyecto">
-                <h3><a href="https://github.com/ferlmdl/Desarrollo_web">Sitio web de compra y venta</a></h3>
+                <h3><a href="https://github.com/ferlmdl/FitAI-Coach" target="_blank">Fit AI Coach</a></h3>
+                <p>Plataforma inteligente de entrenamiento que utiliza <strong>MediaPipe</strong> y <strong>Google Cloud</strong> para analizar videos de ejercicio segundo a segundo. El sistema detecta repeticiones y entrega feedback técnico detallado en tiempo real. La IA fue desarrollada en Python e integrada a una aplicación web construida con Node.js y HBS.</p>
+            </div>
+
+            <div class="proyecto">
+                <h3><a href="https://github.com/ferlmdl/Desarrollo_web" target="_blank">Sitio web de compra y venta</a></h3>
                 <p>Página para realizar compra y venta de productos en línea, conectada a MongoDB y asegurada con JWT. Alojada en una instancia ec2 de AWS.</p>
             </div>
             
             <div class="proyecto">
-                <h3><a href="https://github.com/ferlmdl/BDD">Sitio web de cuidado animal</a></h3>
+                <h3><a href="https://github.com/ferlmdl/BDD" target="_blank">Sitio web de cuidado animal</a></h3>
                 <p>Página para ingresar información sobre tus mascotas, permite llevar registro de las medicinas, médicos a cargo, etc. Está conectada a PostgreSQL.</p>
             </div>
         </section>
@@ -124,6 +136,7 @@
             <h2>Habilidades</h2>
             <ul>
                 <li><strong>Lenguajes:</strong> Python, JavaScript, Java, C++, SQL</li>
+                <li><strong>IA y Cloud:</strong> MediaPipe, Google Cloud Platform, Visión por Computadora</li>
                 <li><strong>Frameworks y tecnologías:</strong> Node, Express, Bootstrap, JWT, HBS, bycript</li>
                 <li><strong>Bases de Datos:</strong> PostgreSQL, MongoDB, Supabase</li>
                 <li><strong>Business Intelligence y Software:</strong> PowerBi, Excel (Avanzado), Office</li>
